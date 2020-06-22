@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest
 @DirtiesContext
 @ActiveProfiles("test")
-public class KafkaConsumerTest {
+public class KafkaTest {
 
     @Value("${kafka.topic.simpleMessageTopic}")
     private String topicName;
